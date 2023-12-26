@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+body {
+    background-color: #ffd4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1, a {
+    margin: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #E91E63; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none;
+    border: 1px solid #FF00A6; /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    border-color: #FF00A6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: #FFA200; /* Cambiar color de fondo al pasar el ratón */
+    border-color: #FFA200;
+}
+.bordered-table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+
+.bordered-table th, .bordered-table td {
+    border: 1px solid #ddd;
+    padding: 1px;
+    text-align: left;
+}
+
+.bordered-table th {
+    background-color: #f2f2f2;
+}
+/* Estilo para el campo de entrada de texto */
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón */
+.submit-button {
+    background-color: #BD0000; /* Color de fondo azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+/* Cambiar el color del botón cuando se pasa el cursor sobre él */
+.submit-button:hover {
+    background-color: #FFA833; /* Nuevo color de fondo al pasar el cursor */
+}
+.select-diseño {
+    padding: 10px; /* Añade un espacio interno */
+    width: 200px; /* Ancho del select */
+    font-size: 16px; /* Tamaño de fuente */
+    border: 2px solid #3498db; /* Borde con color */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #f2f2f2; /* Color de fondo */
+    color: #333; /* Color de texto */
+    appearance: none; /* Oculta la flecha predeterminada en algunos navegadores */
+}
+
+/* Estilos para el foco (cuando el usuario selecciona el select) */
+select:focus {
+    border-color: #e74c3c; /* Cambia el color del borde cuando está enfocado */
+}
